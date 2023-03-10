@@ -110,18 +110,29 @@ body{
 .column-container { }
 .title__column-container {
     text-align: center;
+    margin: 0 0 30px 0;
 }
 .columns__column-container { 
     display: flex;
     flex-wrap: wrap;
 }
 .item__column-container {
+    width: 574px;
     display: flex;
+    margin: 0 16px 30px 0;
  }
-.item-img__column-container { }
+.item-img__column-container { 
+  margin: 0 15px 0 0;
+}
 .text-column__column-container { }
-.title-text__column-container { }
+.title-text__column-container {
+  color: #445161;
+  font-size: 24px;
+  margin: 0 0 15px 0;
+ }
 .text__column-container {
+  font-size: 16px;
+  color: #333333;
  }
  /*---------------------------------------*/
  .footer {

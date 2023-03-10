@@ -107,7 +107,10 @@ body{
     margin: 0;
  }
 /*----------------------------------------*/
-.column-container { }
+.column-container { 
+  background: #f5f5f5;
+  padding: 50px 0 20px 0;
+}
 .title__column-container {
     text-align: center;
     margin: 0 0 30px 0;
@@ -115,14 +118,17 @@ body{
 .columns__column-container { 
     display: flex;
     flex-wrap: wrap;
+    margin: 0 -8px;
 }
 .item__column-container {
-    width: 574px;
+    padding: 0 8px;
+    flex: 0 1 50%;
     display: flex;
-    margin: 0 16px 30px 0;
+    margin: 0 0 30px 0;
  }
 .item-img__column-container { 
   margin: 0 15px 0 0;
+  flex: 0 0 200px;
 }
 .text-column__column-container { }
 .title-text__column-container {
@@ -134,6 +140,77 @@ body{
   font-size: 16px;
   color: #333333;
  }
+ /*---------------------------------------*/
+ .buttons-block {
+  padding: 50px;
+  }
+.title__buttons-block { 
+  color: #445161;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+.body__buttons-block{
+  max-width: 990px;
+  margin: 0 auto;
+}
+.buttons-container__buttons-block {
+  display: flex;
+  margin: 0 -22.5px;
+  
+ }
+ .button-column__buttons-container{
+  padding: 0 22.5px;
+  flex: 0 1 33.3333%;
+  display: flex;
+ }
+.button-item-_buttons-container { 
+  padding: 20px 0;
+  background: #445162;
+  color: #ffffff;
+  border:#445162 2px solid ;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.text-title__button-item { 
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 0 12px 0;
+}
+.text-title2__button-item { 
+  background: #ffffff;
+  color: #445162;
+  font-size: 40px;
+  text-align: center;
+  padding: 20px 0 15px 0;
+}
+.text_button-item { 
+  font-size: 14px;
+  line-height: 24px;
+  margin: 20px 30px 20px 20px;
+  flex: 1 1 auto;
+}
+.button__button-item a {
+  display: block;
+  margin: 0 20px;
+  height: 40px;
+  background-color: #ffffff;
+  font-size: 18px;
+  line-height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  color: #445161;
+}.button__button-item a:hover{
+  top: 1px;
+  background: #ffffffbe;
+}.button__button-item a:active{
+  top: 1px;
+  background: #ffffff86;
+}
  /*---------------------------------------*/
  .footer {
     
